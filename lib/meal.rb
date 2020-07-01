@@ -5,7 +5,7 @@ def initialize(waiter, customer, total, tip)
   @customer = Customer
   @total = total
   @tip = tip
-  @@all << seld
+  @@all << self
 end
 
 def self.all
