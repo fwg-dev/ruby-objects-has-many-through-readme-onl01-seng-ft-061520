@@ -24,7 +24,7 @@ def meals
 end
   def waiters
     meals.map do |meal|
-      meals.waiter
+      meal.waiter
     end
 end
 end
